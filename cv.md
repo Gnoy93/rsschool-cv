@@ -23,9 +23,9 @@ I love to overcome difficulties and improve myself from day to day. I consider m
 
 ## Education
 * Minsk State Polytechnic College
-   - Electrical technician
+   -  Electrical technician
 * Belarusian State University of Informatics and Radioelectronics
-   - Electronic engineer
+   -  Electronic engineer
 * [HtmlAcademy](https://htmlacademy.ru/profile/id1672607)
 
 ---
