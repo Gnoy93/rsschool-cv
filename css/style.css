@@ -1,0 +1,14 @@
+* {
+   box-sizing: border-box;
+}
+
+/* Header */
+
+/* Body */
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+/* Footer */
