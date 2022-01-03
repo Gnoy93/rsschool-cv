@@ -1,14 +1,85 @@
 * {
    box-sizing: border-box;
+   font-family: "IBM Plex Serif", serif;
+   font-family: "Source Serif Pro", serif;
 }
-
-/* Header */
-
-/* Body */
 body {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+   max-width: 1080px;
+   width: 100%;
+   margin: 0 auto;
+   border: 1px solid rgb(171, 0, 0);
+}
+
+.main {
+   flex-grow: 1;
+}
+
+h3 {
+   font-size: 2rem;
+   color: rgb(171, 0, 0);
+}
+
+li,
+p,
+pre {
+   line-height: 2rem;
+   font-size: 1.3rem;
+}
+
+/* Header */
+.header {
+   display: flex;
+   align-items: center;
+   padding: 1rem;
+   background: rgb(171, 0, 0);
+}
+
+.header__my-photo img {
+   border-radius: 50%;
+}
+.header__info {
+   flex-grow: 1;
+   text-align: center;
+}
+.header__name {
+   font-size: 3.5rem;
+   color: rgb(255, 255, 172);
+}
+.header__profession {
+   font-size: 2.5rem;
+   color: rgb(255, 255, 172);
+}
+
+/* Main */
+.main {
+   display: flex;
+}
+.main__aside {
+   width: 30%;
+   background: rgb(255, 255, 172);
+}
+.main__contacts > h3 {
+   text-align: center;
+}
+.main__contacts > ul {
+   list-style-type: none;
+}
+.main__sections {
+   display: flex;
+   flex-direction: column;
+   width: 70%;
+   padding: 1rem;
+   justify-content: space-between;
 }
 
 /* Footer */
+.footer {
+   display: flex;
+   justify-content: center;
+   background: rgb(171, 0, 0);
+   color: rgb(255, 255, 172);
+   font-size: 1.5rem;
+}
